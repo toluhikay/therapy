@@ -1,0 +1,154 @@
+.main{
+    background: #ffffff;
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+ 
+}
+@media only screen and (max-width:900px) {
+    .main{
+        display: block;
+    }
+    .our, .pour{
+        text-align: center;
+        
+    }
+    #countdown{
+        display:block;
+    }
+    #number, .time{
+        text-align: center;
+    }
+    #container{
+        display: block;
+    }
+    .img{
+        width: 100%;
+    }
+
+}
+.line{
+    position: absolute;
+    width: 99px;
+    height: 0px;
+    left: 0px;
+    top: 28px;
+    border: 2px solid #4ab7c3;
+}
+.coming{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    position: relative;
+    padding-left: 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+    padding-left: 110px;
+}
+.coming::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #4ab7c3;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    z-index: 0;
+}
+.our{
+    color: #004866;
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-right: 70px;
+}
+.pour{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-right: 70px;
+}
+.countdown{
+    display: flex;
+}
+#number{
+    color: #4ab7c3;
+    font-size: 48px;
+}
+.number1{
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.number2{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.number3{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.number4{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.time{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.w3-container{
+    box-shadow: 12px 16px 40px rgba(0, 72, 102, 0.1);
+    position: absolute;
+    background: #fff;
+    display: flex;
+    border-radius: 5px;
+    z-index: 99;
+}
+.notify{
+    background: #4ab7c3;
+    margin: 50px;
+    border: none;
+    width: 140px;
+    height: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.email{
+    padding-top: 30px;
+    border: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.img{
+    margin-top: 150px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background: #f3f7f8;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.square2{
+    width: 50px;
+    height: 58px;
+    background: #f3f7f8;
+    margin-top: 70px;
+    position: relative;
+    margin-left: 550px;
+    margin-bottom: 500px;
+    border-radius: 5px;
+}
+.square3{
+    width: 200px;
+    height: 100px;
+    background: #f3f7f8;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    border-radius: 5px;
+    padding-left: 100px;
+}
